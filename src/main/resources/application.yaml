@@ -1,0 +1,22 @@
+swagger:
+  contact:
+    name: Anderson Sales
+    email: "anderson.luiz.sales@gmail.com"
+  app:
+    name: Web Service
+    version: 0.0.1
+    description: API reponsavel pode crud de web service.
+  base:
+    package: br.com.example.webService
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/WebService?useUnicode=true?characterEncoding=UFT-8useTimezone=true&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
